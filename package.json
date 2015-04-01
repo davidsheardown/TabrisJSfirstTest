@@ -1,0 +1,6 @@
+{
+  "main": "myapp.js",
+  "dependencies": {
+    "tabris": "0.9.3"
+  }
+}
