@@ -1,0 +1,9 @@
+{
+  "title": "David App",
+  "category": "Animation",
+  "description": "David Test App 1",
+  "main": "app.js",
+  "dependencies": {
+    "tabris": "0.9.3"
+  }
+}
