@@ -1,5 +1,8 @@
 {
-  "main": "myapp.js",
+  "title": "David Demo",
+  "description": "Using Cordova plugins if needed",
+  "category": "Cordova",
+  "main": "app.js",
   "dependencies": {
     "tabris": "0.9.3"
   }
