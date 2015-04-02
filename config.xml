@@ -7,6 +7,7 @@
     <author email="davidsheardown@hotmail.com" href="http://hoveringhedgehog.com">
         Hovering Hedgehog
     </author>
+    <EnableDeveloperConsole>false</EnableDeveloperConsole>
     <content src="index.html" />
     <access origin="*" />
 
