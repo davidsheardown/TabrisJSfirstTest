@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.eclipsesource.cordova.test" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.hoveringhedgehog.test1" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>David App Test</name>
     <description>
         David App Test 1
@@ -7,7 +7,7 @@
     <author email="davidsheardown@hotmail.com" href="http://hoveringhedgehog.com">
         Hovering Hedgehog
     </author>
-    <EnableDeveloperConsole>false</EnableDeveloperConsole>
+
     <content src="index.html" />
     <access origin="*" />
 
@@ -17,7 +17,7 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="nl.x-services.plugins.toast" />
     
-    <preference name="EnableDeveloperConsole" value="true"/>
+    <preference name="EnableDeveloperConsole" value="false"/>
     
     <platform name="android">
         <icon src="resources/android/drawable-mdpi/ic_launcher.png" density="mdpi" />
