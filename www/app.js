@@ -73,7 +73,7 @@ scrollView.on("change:bounds", function() {
 scrollView.on("scroll", function(offset) {
     imageTextView.set("transform", {translationY: offset.y * 0.4});
     if (titleCompY - offset.y < 0) {
-        titleComposite.set("transform", {translationY: offset.y - titleCompY, opacity: 3});
+        titleComposite.set("transform", {translationY: offset.y - titleCompY});
     } else {
         titleComposite.set("transform", {translationY: 0});
     }
